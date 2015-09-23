@@ -1,0 +1,38 @@
+﻿Build started 4/12/2015 4:25:33 AM.
+     1>Project "c:\Users\mihn.porus\documents\visual studio 2013\Projects\Faces Detection and Recognizer_Opencv\Faces Detection and Recognizer_Opencv\Faces Detection and Recognizer_Opencv.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\opencv\build\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FaceDetector.cpp FramesReader.cpp PersonRecognizer.cpp PrepareFaces.cpp Run.cpp Source.cpp
+         Source.cpp
+         Run.cpp
+     1>c:\users\mihn.porus\documents\visual studio 2013\projects\faces detection and recognizer_opencv\faces detection and recognizer_opencv\run.cpp(108): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mihn.porus\documents\visual studio 2013\projects\faces detection and recognizer_opencv\faces detection and recognizer_opencv\run.cpp(126): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         PrepareFaces.cpp
+     1>c:\users\mihn.porus\documents\visual studio 2013\projects\faces detection and recognizer_opencv\faces detection and recognizer_opencv\preparefaces.cpp(24): warning C4566: character represented by universal-character-name '\u0110' cannot be represented in the current code page (1252)
+     1>c:\users\mihn.porus\documents\visual studio 2013\projects\faces detection and recognizer_opencv\faces detection and recognizer_opencv\preparefaces.cpp(24): warning C4566: character represented by universal-character-name '\u1EA7' cannot be represented in the current code page (1252)
+     1>c:\users\mihn.porus\documents\visual studio 2013\projects\faces detection and recognizer_opencv\faces detection and recognizer_opencv\preparefaces.cpp(24): warning C4566: character represented by universal-character-name '\u1EC7' cannot be represented in the current code page (1252)
+     1>c:\users\mihn.porus\documents\visual studio 2013\projects\faces detection and recognizer_opencv\faces detection and recognizer_opencv\preparefaces.cpp(24): warning C4566: character represented by universal-character-name '\u1EE3' cannot be represented in the current code page (1252)
+     1>c:\users\mihn.porus\documents\visual studio 2013\projects\faces detection and recognizer_opencv\faces detection and recognizer_opencv\preparefaces.cpp(24): warning C4566: character represented by universal-character-name '\u1EC3' cannot be represented in the current code page (1252)
+     1>c:\users\mihn.porus\documents\visual studio 2013\projects\faces detection and recognizer_opencv\faces detection and recognizer_opencv\preparefaces.cpp(24): warning C4566: character represented by universal-character-name '\u1EA1' cannot be represented in the current code page (1252)
+     1>c:\users\mihn.porus\documents\visual studio 2013\projects\faces detection and recognizer_opencv\faces detection and recognizer_opencv\preparefaces.cpp(78): warning C4566: character represented by universal-character-name '\u0110' cannot be represented in the current code page (1252)
+     1>c:\users\mihn.porus\documents\visual studio 2013\projects\faces detection and recognizer_opencv\faces detection and recognizer_opencv\preparefaces.cpp(78): warning C4566: character represented by universal-character-name '\u1EA7' cannot be represented in the current code page (1252)
+     1>c:\users\mihn.porus\documents\visual studio 2013\projects\faces detection and recognizer_opencv\faces detection and recognizer_opencv\preparefaces.cpp(78): warning C4566: character represented by universal-character-name '\u1EC7' cannot be represented in the current code page (1252)
+     1>c:\users\mihn.porus\documents\visual studio 2013\projects\faces detection and recognizer_opencv\faces detection and recognizer_opencv\preparefaces.cpp(78): warning C4566: character represented by universal-character-name '\u1EE3' cannot be represented in the current code page (1252)
+     1>c:\users\mihn.porus\documents\visual studio 2013\projects\faces detection and recognizer_opencv\faces detection and recognizer_opencv\preparefaces.cpp(78): warning C4566: character represented by universal-character-name '\u1EC3' cannot be represented in the current code page (1252)
+     1>c:\users\mihn.porus\documents\visual studio 2013\projects\faces detection and recognizer_opencv\faces detection and recognizer_opencv\preparefaces.cpp(78): warning C4566: character represented by universal-character-name '\u1EA1' cannot be represented in the current code page (1252)
+         PersonRecognizer.cpp
+         FramesReader.cpp
+         FaceDetector.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\mihn.porus\documents\visual studio 2013\Projects\Faces Detection and Recognizer_Opencv\Debug\Faces Detection and Recognizer_Opencv.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x64\vc12\lib /LIBPATH:C:\opencv\build\x64\vc12\lib /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib" /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib" /LIBPATH:"C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86" opencv_calib3d2411d.lib opencv_contrib2411d.lib opencv_core2411d.lib opencv_features2d2411d.lib opencv_flann2411d.lib opencv_gpu2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_legacy2411d.lib opencv_ml2411d.lib opencv_nonfree2411d.lib opencv_objdetect2411d.lib opencv_ocl2411d.lib opencv_photo2411d.lib opencv_stitching2411d.lib opencv_superres2411d.lib opencv_ts2411d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\mihn.porus\documents\visual studio 2013\Projects\Faces Detection and Recognizer_Opencv\Debug\Faces Detection and Recognizer_Opencv.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\mihn.porus\documents\visual studio 2013\Projects\Faces Detection and Recognizer_Opencv\Debug\Faces Detection and Recognizer_Opencv.lib" /MACHINE:X86 Debug\FaceDetector.obj
+         Debug\FramesReader.obj
+         Debug\PersonRecognizer.obj
+         Debug\PrepareFaces.obj
+         Debug\Run.obj
+         Debug\Source.obj
+     1>opencv_contrib2411d.lib(opencv_contrib2411d.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'
+     1>Done Building Project "c:\Users\mihn.porus\documents\visual studio 2013\Projects\Faces Detection and Recognizer_Opencv\Faces Detection and Recognizer_Opencv\Faces Detection and Recognizer_Opencv.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.87
